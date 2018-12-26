@@ -1,0 +1,1 @@
+<h1><strong>Boriskin Log</strong> <br>Website by DmitryUrsa</h1>

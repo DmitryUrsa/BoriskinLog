@@ -1,0 +1,7 @@
+@import "_mixins/font-face";
+
+@include font-face("Gilroy", "../fonts/Gilroy/Gilroy-Regular");
+@include font-face("Gilroy", "../fonts/Gilroy/Gilroy-Bold", bold);
+@include font-face("Gilroy", "../fonts/Gilroy/Gilroy-ExtraBold", 800);
+@include font-face("Gilroy", "../fonts/Gilroy/Gilroy-Light", 300);
+@include font-face("BarberryLetters", "../fonts/BarberryLetters/BarberryLetters");
