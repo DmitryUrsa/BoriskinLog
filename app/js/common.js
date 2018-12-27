@@ -40,7 +40,34 @@ jQuery(function() {
 
 	jQuery('.accordeon-item').click(function() {
 		jQuery(this).toggleClass('open');
-	})
+	});
+
+	jQuery('.our-dogs-slider').slick({
+		infinite: false,
+		arrows: true,
+		dots: true,
+		slidesToShow: 3,
+		slidesToScroll: 2,
+		responsive: [
+		    {
+		      breakpoint: 1200,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1,
+		        arrows: false
+		      }
+		    },
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        arrows: false
+		      }
+		    }
+		]
+
+	});
 
 
 });
